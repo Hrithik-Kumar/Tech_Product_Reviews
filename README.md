@@ -1,4 +1,4 @@
-# Tech Publication Reviews
+# Tech Product Reviews
 
 ## Project Description
 

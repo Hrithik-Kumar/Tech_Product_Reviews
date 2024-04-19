@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: staging
+    database: dezoomcamp-416915
+    schema: tech_reviews
+
+    tables:
+      - name: tech_reviews_data_partitioned_clustered
+  

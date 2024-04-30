@@ -1,0 +1,10 @@
+# you shouldn't commit these into source control
+# these are the default directory names, adjust/add to fit your needs
+target/
+dbt_packages/
+logs/
+dbt_modules/
+venv/
+env/
+test.env
+__pycache__

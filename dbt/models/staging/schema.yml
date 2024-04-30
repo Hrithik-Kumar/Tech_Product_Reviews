@@ -1,0 +1,74 @@
+version: 2
+
+sources:
+  - name: staging
+    database: dezoomcamp-416915
+    schema: tech_reviews
+
+    tables:
+      - name: tech_reviews_data_partitioned_clustered
+
+models:
+  - name: stg_tech_reviews_data_partitioned_clustered
+    description: "Tech Products Review data partitoned by date and clustered on the publication"
+    columns:
+      - name: url
+        data_type: string
+        description: "Review URL"
+        tests:
+          - unique:
+              severity: warn
+          - not_null:
+              severity: warn
+
+      - name: review_score
+        data_type: int64
+        description: "Product review score given by the author"
+        tests:
+          - not_null:
+              severity: warn 
+
+      - name: publication
+        data_type: string
+        description: "One of the 4 publications, TechRadar, CNET, PCMag, Trusted Reviews"
+        tests:
+          - not_null:
+              severity: warn
+          - accepted_values:
+              values: ['TechRadar', 'CNET', 'PCMag', 'Trusted Reviews']
+              severity: warn
+
+      - name: adjusted_review_score
+        data_type: int64
+        description: "Review score standarized out of 10 for 'TechRadar', 'PCMag', 'Trusted Reviews' "
+        tests:
+          - not_null:
+              severity: warn
+
+      - name: tech_category
+        data_type: string
+        description: "Tech Category of the product"
+
+      - name: article
+        data_type: string
+        description: "Article text written by the author"
+
+      - name: author
+        data_type: string
+        description: "Name of the Author"
+        tests:
+          - not_null:
+              severity: warn
+
+      - name: published_date
+        data_type: timestamp
+        description: "The date the review was published"
+
+      - name: title
+        data_type: string
+        description: "Title of the review"
+
+      - name: brand
+        data_type: string
+        description: "Product Brand"
+  

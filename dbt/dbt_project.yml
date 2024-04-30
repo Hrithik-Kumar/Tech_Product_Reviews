@@ -37,4 +37,5 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 models:
   'tech_products_reviews':
+
   

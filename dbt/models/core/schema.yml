@@ -1,0 +1,43 @@
+version: 2
+
+models:
+  - name: aggregate_publications
+    description: ""
+    columns:
+      - name: publication
+        data_type: string
+        description: ""
+
+      - name: review_score
+        data_type: int64
+        description: ""
+
+      - name: num_reviews
+        data_type: int64
+        description: ""
+
+      - name: percentage_num_reviews
+        data_type: float64
+        description: ""
+
+  - name: brand_mean_score
+    description: ""
+    columns:
+      - name: mean_review_score
+        data_type: float64
+        description: ""
+
+      - name: brands_with_score
+        data_type: string
+        description: ""
+
+  - name: combined_categories
+    description: ""
+    columns:
+      - name: category
+        data_type: string
+        description: ""
+
+      - name: num_reviews
+        data_type: int64
+        description: ""

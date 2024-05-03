@@ -57,6 +57,23 @@ The examination aims to discern patterns within product reviews across diverse p
 
 <img title="" src="./images/architecture_gif.gif" alt="COLOCAR" data-align="center">
 
+### Key Insights
+
+Check out the interactive dashboard [***HERE***](https://lookerstudio.google.com/u/0/reporting/63c86e19-0fdc-4f5d-98e3-0b04281c30e6).
+
+After analyzing data from the year 2013 to 2020, it can be said that:
+
+1. The average product review score across all four publications exceeded 7 on a scale of 1 to 10
+
+2. Computers, including laptops, PCs, and monitors, garnered the highest number of reviews
+
+3. Dyson, Nvidia, OnePlus, Denon, Sigma, and Apple products emerged as top-reviewed items
+
+
+<img title="" src="./images/category_plot.png" alt="COLOCAR" data-align="center">
+
+---
+
 ### Folder navigation
 
 #### `./code`
@@ -84,7 +101,7 @@ Sub folders and files for the whole dbt project.
 Various images of mage pipelines and dbt models, among other things
 
 
-#### `./looker_studio`
+#### `./visualization`
 
 Dashboard resulting from the design in looker studio and access link.
 

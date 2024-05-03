@@ -51,6 +51,11 @@ The examination aims to discern patterns within product reviews across diverse p
    
    - [Google Looker Studio](https://lookerstudio.google.com/overview)
 
+### Architecture
+
+
+
+<img title="" src="./images/architecture_gif.gif" alt="COLOCAR" data-align="center">
 
 ### Folder navigation
 

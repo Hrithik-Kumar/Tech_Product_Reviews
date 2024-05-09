@@ -241,8 +241,6 @@ The objective is to convert the data stored in the Data Warehouse (Google BigQue
 The transformation lineage is documented within the `./dbt/models` directory, and look like the following
 
 <img src="images/dbt_lineage.png" width="1000" />
-<br>
-<br>
 
 --- 
 

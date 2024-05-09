@@ -1,5 +1,17 @@
 # Tech Product Reviews
 
+- [Project Description](#project-description)
+- [Tools](#tools)
+- [Architecture](#architecture)
+- [Key Insights](#key-insights)
+- [Folder Navigation](#folder-navigation)
+- [Getting Started Guide](#getting-started-guide)
+- [Setting up GCP](#setting-up-gcp)
+- [Running the code](#running-the-code)
+- [DBT](#analytics-engineering-with-dbt)
+- [Visualization](#creating-visualizations)
+- [Contribution](#contribution)
+
 ## Project Description
 
 This project is part of the [Data Engineering Zoomcamp](https://github.com/DataTalksClub/data-engineering-zoomcamp) for 2024 Cohort. 
@@ -255,8 +267,6 @@ The transformation lineage is documented within the `./dbt/models` directory, an
 - Proceed to create your visualizations and share them as needed.
 
 <img src="images/dashboard.png" width="1000" />
-<br>
-<br>
 
 --- 
 
